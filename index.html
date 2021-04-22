@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+	<title>Coding mart</title>
+	<script src="https://kit.fontawesome.com/6f34f904f9.js" crossorigin="anonymous"></script>
+	<style>
+				body{
+					font-family: 'Roboto Slab', serif;
+					margin: auto;
+					width:100%;
+				}
+
+		.background-img{
+			height: 450px;
+			width: 100%;
+			background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("https://codingmart.com/wp-content/themes/codingmart/images/homepage/homepage-banner.png");
+			
+			background-repeat: no-repeat;
+			background-color:#20488D; 
+
+		}
+		.flex{
+			display: flex;
+		}
+		.flex2{
+			display: flex;
+			width: 98%;
+			margin:auto;
+		}
+		
+		
+		.flex1{
+			display: flex;
+			justify-content: space-between;
+			padding: 45px;
+		}
+
+		.align a{
+			text-decoration: none;
+			color:white;
+			padding: 20px;
+			padding-top: 30px;
+			font-size: 1rem;
+		}
+		.description h1{
+			font-size: 50px;
+			color: white;
+			width:750px;
+			padding-left: 60px;
+
+		}
+		.description p{
+			font-size: 20px;
+			color: white;
+			width:750px;
+			padding-left: 60px;
+		}
+		.btn-align{
+			height:45px; 
+			width:200px;
+			color: white;
+			text-align: center;
+			border-style: solid;
+			border-radius: 3px;
+			background-color: #FF931E;
+			border-width: 1px;
+			font-size: 16px;
+			border-color:#FF931E;
+
+		}
+		.btn{
+			padding-left: 60px;
+		}
+		.company{
+			height:250px;
+			width:20%;
+			border-right: 1px solid rgba(62, 180, 255, 0.3);
+		}
+		.company h2{	
+			font-size: 35px;
+			width:166px;
+			padding-left: 9px;
+			text-align: right;
+
+		}
+		.company-logo{
+			height:250px;
+			width:80%;
+		}
+		.img{
+			width: 20%;
+		}
+		.img-align{
+			flex-direction: column;
+			display: flex;
+			justify-content: space-between;
+			padding: 20px;
+			width: 20%;
+		}
+		.heading{
+			height:200px;
+			width:100%;
+			text-align: center;
+		}
+		.heading h2{
+			font-size: 40px;
+
+		}
+		.heading p{
+			width:950px;
+			padding-left: 207px;
+			color:#7F7F7F;
+			font-size: 21px;
+			
+		}
+		.small-image {
+			height: 30%;
+			display: flex;
+			align-items: center;
+		}
+
+		.medium-image {
+			height: 70%;
+			display: flex;
+			align-items: center;
+		}
+		
+		.add-info{
+			height: 500px;
+			width:25%;
+			background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("https://codingmart.com/wp-content/uploads/2020/07/it-strategy-consulting.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+			margin: 12px; 
+
+
+		}
+		.add-info1{
+			height: 500px;
+			width:25%;
+			background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("https://codingmart.com/wp-content/uploads/2020/07/tools.jpeg");
+			background-repeat: no-repeat;
+			background-size: cover; 
+			margin: 12px; 
+
+
+		}
+		.add-info2{
+
+			height: 500px;
+			width:25%;
+			background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("https://codingmart.com/wp-content/uploads/2020/07/application-development.png");
+			background-repeat: no-repeat;
+			background-size: cover; 
+			margin: 12px; 
+
+
+		}
+		.add-info3{
+
+			height: 500px;
+			width:25%;
+			background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("https://codingmart.com/wp-content/uploads/2020/07/IT.jpg");
+			background-repeat: no-repeat;
+			background-size: cover; 
+			margin: 12px; 
+
+
+		}
+		.it-align{
+			color: white;
+			font-size: 15px;
+			padding:23px;
+			width:300px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			height: 88%;
+		}
+		.it-align1{
+			color: white;
+			font-size: 15px;
+			padding:23px;
+			width:282px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			height: 88%;
+		}
+		.background-img1{
+			height:250px;
+			width:100%;
+			background-image: url("https://codingmart.com/wp-content/themes/codingmart/images/homepage/industries-bg.png");
+			background-repeat: none;
+			background-size: cover;
+		}
+		.industries{
+			width:20%;
+
+		}
+		.industries-list{
+			width:80%;
+
+		}
+		.list{
+			width:25%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			color: white;
+		}
+
+		.industries-align{
+			color: white;
+			font-size: 40px;
+			padding: 40px;
+			width: 158px;
+		}
+		.icon-align{
+			padding: 46px;
+			display: flex;
+		}
+		.Healthcare-font{
+			padding: 17px;
+			font-size: 22px;
+		}
+		.fa-2x{
+			font-size: 3rem;
+		}
+		.common-heading{
+			
+			width:100%;
+			text-align: center;
+			font-size: 30px;
+			color:black;
+		}
+		.technology{
+			/*width:50%;*/
+			margin: auto;
+
+		}
+		.technology h2{
+			padding-left: 94px;
+		}
+		.img-border{
+			border: 1px solid rgba(62, 180, 255, 0.3);
+			padding: 14px;
+
+		}
+		.img-border1{
+			border-top: 1px solid rgba(62, 180, 255, 0.3);
+			border-bottom: 1px solid rgba(62, 180, 255, 0.3);
+			padding: 14px;
+		}
+		.footer{
+			width:20%;
+			height:336px;
+
+		}
+		.footer-follow{
+			width:20%;
+			height:300px;
+			padding: 10px;
+
+		}
+		.footer-color{
+			background-color: #0E367E;
+		}
+		.footer-align{
+			color: white;
+			font-size: 16px;
+			padding-left: 79px;
+			padding-top: 35px;
+		}
+		.location-align{
+			color:white;
+			padding-left: 83px;
+			display: flex;
+			width: 190px;
+
+		}
+		.address-align{
+			padding-left: 10px;
+		}
+		.phone-align{
+			color:white;
+			padding-left: 83px;
+			padding-top: 12px;
+		}
+		.mail-align{
+			color:white;
+			padding-left: 83px;
+			padding-top: 12px;
+		}
+		.services-align{
+			display: flex;
+			flex-direction: column;
+			color: white;
+			padding-left:80px;
+			justify-content: space-between;
+			height:49%;
+
+		}
+		.menu-align{
+			display: flex;
+			flex-direction: column;
+			color: white;
+			padding-left:80px;
+			justify-content: space-between;
+			height:34%;
+
+		}
+		.follow-align{
+			color: white;
+			padding-top: 168px;
+
+
+		}
+		.icon{
+			color:white;
+			font-size: 27px;
+		}
+		.footer-copyright{
+			color:white;
+			background-color:#002567 ;
+			height:50px;
+			width:94.4%;
+			padding-left: 83px;
+			padding-top: 19px;
+			
+		}
+		.footer-copyright p{
+			margin:0px;
+		}
+	</style>
+</head>
+<body>
+	<header class="background-img">
+		<div class="flex1">
+			<div >
+				<img src="https://codingmart.com/wp-content/themes/codingmart/images/codingmart-logo.png">
+			</div>
+			<div class="align" >
+				<a href="#"><b>Home</b></a>
+				<a href="#"><b>About Us</b></a>
+				<a href="#"><b>Services</b></a>
+				<a href="#"><b>Technology</b></a>
+				<a href="#"><b>Explore</b></a>
+				<a href="#"><b>Contact</b></a>
+			</div>
+		</div>
+		<div class="description">
+			<h1>It specialists helping companies transform business.</h1>
+			<p>Codingmart help companies of all sizes from startups to unicorns to Enterprises;to pioneer the next generation technologies.</p>
+		</div>
+		<div class="btn">
+			<button class="btn-align"><b>Let's Collaborote!</b></button>
+		</div>
+	</header>
+	<div class="flex" >
+		<div class="company">
+
+			<h2>We work with</h2>
+
+		</div>
+		<div class="company-logo flex">
+			<div class="img img-align">
+				
+				<div class="small-image">
+					<img src="https://codingmart.com/wp-content/uploads/2020/07/myntra.png" width='100%'>
+				</div>
+				<div class="medium-image">
+					<img src="https://codingmart.com/wp-content/uploads/2020/07/MyGate.png" width="100%">
+				</div>
+
+				
+			</div>
+			<div class="img img-align">
+				<div class="small-image">
+					<img src="https://codingmart.com/wp-content/uploads/2020/07/Digit.png" width='100%'>
+				</div>
+				<div class="medium-image">
+					<img src="https://codingmart.com/wp-content/uploads/2020/07/OKCredit.png" width='100%'>
+				</div>
+			</div>	
+			<div class="img img-align">
+				<div class="small-image">
+					<img src="https://codingmart.com/wp-content/uploads/2020/07/Practo.png" width='100%'>
+				</div>
+				<div class="medium-image">
+					<img src="https://codingmart.com/wp-content/uploads/2020/07/Udaan.png" width='100%'>
+				</div>
+			</div>
+			<div class="img img-align">
+				<div class="small-image">
+					<img src="https://codingmart.com/wp-content/uploads/2020/07/Flipkart.png" width='100%'>
+				</div>
+				<div class="medium-image">
+					<img src="https://codingmart.com/wp-content/uploads/2020/07/Landmark-Group-Logo-e1595171792134.jpg" width='100%'>
+				</div>
+			</div>
+			<div class="img img-align">
+				<div class="small-image">
+					<img src="https://codingmart.com/wp-content/uploads/2020/07/nykaa.png"  width='100%'>
+				</div>
+				<div class="medium-image">
+					<img src="https://codingmart.com/wp-content/uploads/2020/07/Sharechat.png"  width='100%'>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr >
+	<div class="heading">
+		<h2>Explore our digital transformation services</h2>
+		<p>Codingmart brings together a distinctive set of software building capabilities to help our clients on their digital journey. Be it a large enterprise or a startup growing exponentially, we can build software solutions for your complex everyday problems.</p>
+	</div>
+ 		<div class="flex">
+		<div class="add-info">
+			<div class="it-align">
+				<h1>IT Strategy and Consulting </h1>
+				<span><b>Learn More</b></span>
+			</div>
+		</div>
+
+		<div class="add-info1">
+			<div class="it-align1">
+				<h1 > Enterprise platforms, Tools and Automation </h1>
+				<span><b>Learn More</b></span>
+			</div>
+		</div>
+		<div class="add-info2">
+			<div class="it-align">
+				<h1 >  Application development- Web, Mobile and PWA  </h1>
+				<span ><b>Learn More</b></span>
+			</div>
+		</div>
+		<div class="add-info3">
+			<div class="it-align">
+				<h1 >  DevOps and IT Infrastructure  </h1>
+				<span ><b>Learn More</b></span>
+			</div>
+		</div>
+	</div>
+	<div class="flex background-img1">
+		<div class="indsutries">
+			<h2 class="industries-align">Industries we work</h2>
+
+		</div>
+
+		<div class="flex industries-list">
+
+			<div class="list">
+				<div class="icon-align">
+					<i class="fas fa-plus-square fa-2x"></i>
+					<span class="Healthcare-font"><b>Healthcare</b></span>
+				</div>
+				<div class="icon-align">
+					<i class="fas fa-walking fa-2x"></i>
+					<span class="Healthcare-font"><b>Automotive</b></span>
+				</div>
+
+			</div>
+			<div class="list">
+				<div class="icon-align">
+					<i class="fas fa-plus-square fa-2x"></i>
+					<span class="Healthcare-font"><b>E-commerce</b></span>
+				</div>
+				<div class="icon-align">
+					<i class="fas fa-walking fa-2x"></i>
+					<span class="Healthcare-font"><b>Tourism</b></span>
+				</div>
+
+			</div>
+			<div class="list">
+				<div class="icon-align">
+					<i class="fas fa-plus-square fa-2x"></i>
+					<span class="Healthcare-font"><b>Finance</b></span>
+				</div>
+				<div class="icon-align">
+					<i class="fas fa-walking fa-2x"></i>
+					<span class="Healthcare-font"><b>Travel</b></span>
+				</div>
+
+			</div>
+			<div class="list">
+				<div class="icon-align">
+					<i class="fas fa-plus-square fa-2x"></i>
+					<span class="Healthcare-font"><b>Education</b></span>
+				</div>
+				<div class="icon-align">
+					<i class="fas fa-walking fa-2x"></i>
+					<span class="Healthcare-font"><b>AI</b></span>
+				</div>
+
+			</div>
+
+		</div>
+	</div>	
+	
+	<div class="common-heading">
+		<h2>Technologies</h2>
+	</div>
+	<div class=" flex">
+		
+		<div class="technology">
+			<h2 >Back End Development</h2>
+			<div class=" flex">
+				<div class="img-border">
+					<img src="https://codingmart.com/wp-content/uploads/2020/07/pythonnew-1-e1574249929176.png">
+				</div>
+				<div class="img-border1">
+					<img src="https://codingmart.com/wp-content/uploads/2020/07/nodejs.png">
+				</div>
+				<div class="img-border">
+					<img src="https://codingmart.com/wp-content/uploads/2020/07/rails.png">
+				</div>
+			</div>
+		</div>
+
+		<div class="technology">
+			<h2 >DevOps</h2>
+			<div class=" flex">
+				<div class="img-border">
+					<img src="https://codingmart.com/wp-content/uploads/2020/07/docker.png">
+				</div>
+				<div class="img-border1">
+					<img src="https://codingmart.com/wp-content/uploads/2020/07/kubernetes.png">
+				</div>
+				<div class="img-border">
+					<img src="https://codingmart.com/wp-content/uploads/2020/07/serverless.png">
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+	<div class=" flex "style="padding-top: 90px;height:327px;">
+		
+		<div class="technology">
+			<h2 >Front End Development</h2>
+			<div class=" flex">
+				<div class="img-border">
+					<img src="https://codingmart.com/wp-content/uploads/2020/07/vuejs.png">
+				</div>
+				<div class="img-border1">
+					<img src="https://codingmart.com/wp-content/uploads/2020/07/react.png">
+				</div>
+				<div class="img-border">
+					<img src="https://codingmart.com/wp-content/uploads/2020/07/Angularjs.png">
+				</div>
+			</div>
+		</div>
+
+		<div class="technology">
+			<h2 >Mobile Technologies</h2>
+			<div class=" flex">
+				<div class="img-border">
+					<img src="https://codingmart.com/wp-content/uploads/2020/07/reactnative-e1574247706671.png">
+				</div>
+				<div class="img-border1">
+					<img src="https://codingmart.com/wp-content/uploads/2020/07/swift_50_2_40-1-e1574247613274.jpg">
+				</div>
+				<div class="img-border">
+					<img src="https://codingmart.com/wp-content/uploads/2020/07/kotlin1_2_50_4_70-e1574247668584.jpg">
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="flex footer-color">
+		
+		<div class="footer">
+			<h5 class="footer-align">Contact</h5>
+			<div class="location-align">
+				<i class="fas fa-map-marker"></i>
+				<span class="address-align">Codingmart Technologies, MDS Group Signature, 3rd floor, 38th Cross Rd, 5th Block, HBR Layout, Bangalore - 560 045</span>
+			</div>
+			<div class="phone-align">
+				<i class="fas fa-phone-square-alt"></i>
+				<span>+91 6366-213307</span>
+			</div>
+			<div class="mail-align">
+				<i class="fas fa-envelope-square"></i>
+				<span>hr@codingmart.com</span>
+			</div>
+		</div>
+		<div class="footer">
+			<h5 class="footer-align">Our Services</h5>
+			<div class="services-align">
+				<span>IT Strategy and Consulting</span>
+				<span>Enterprise platforms,Tools and Automation</span>
+				<span>Application development</span>
+				<span>DevOps and IT Infrastructure</span>
+			</div>
+
+		</div>
+		<div class="footer">
+			<h5 class="footer-align">Our Menu</h5>
+			<div class="menu-align" >
+				<span>About us</span>
+				<span>Life@Codingmart</span>
+				<span>Learning and development</span>
+			</div>
+
+		</div>
+		<div class="footer">
+			<h5  class="footer-align">Explore</h5>
+			<div class="menu-align">
+				<span>Careers</span>
+				<span>Blogs</span>
+				<span>Case Studies & Testimonials</span>
+
+			</div>
+
+
+		</div>
+
+		<div class="footer-follow">
+			<h5 class="follow-align">Follow us On</h5>
+
+			<div class="icon">
+				<i class="fab fa-facebook"></i>
+				<i class="fab fa-linkedin-in"></i>
+				<i class="fab fa-twitter-square"></i>
+				<i class="fab fa-youtube"></i>
+			</div>
+		</div>
+
+	</div>
+	<div class="footer-copyright">
+		<p>© Copyright 2020 Codingmart Technologies</p>
+	</div>
+</body>
+</html>
